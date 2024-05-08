@@ -1,0 +1,640 @@
+body{
+    background-color:#E9EAEC;
+    margin:0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,li{
+    margin:0px;
+    padding:0px;
+}
+
+img{
+    max-width: 100%;
+}
+
+header{
+    max-width: 1150px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color:#FBE134;
+    padding: 10px 220px;
+}
+
+header p {
+    font-weight:bold;
+    font-size: 10px;
+}
+
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    font-size: 10px;
+}
+
+header nav ul a{
+    text-decoration: none;
+    color:black;
+}
+
+header nav ul a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.info nav ul {
+    list-style-type: none; 
+}
+
+.info ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.info nav ul a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.Adrian nav ul a{
+    text-decoration: none;
+    color:black;
+}
+.Adrian nav ul a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.Martina nav ul a{
+    text-decoration: none;
+    color:black;
+}
+.Martina nav ul a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.Icinori nav ul a{
+    text-decoration: none;
+    color:black;
+}
+.Icinori nav ul a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.contenitore {
+    max-width: 1150px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: auto;
+    color: #fff;
+    background-color: #0B0C0C;
+    padding: 100px 220px;
+    font-size: 64px;
+
+}
+
+.titolo {
+    align-self: end;
+    line-height:1;
+}
+
+.sottotitolo {
+    font-size: 18px;
+    grid-column: span 2;
+    font-weight: normal;    
+    line-height: 1.5;
+}
+
+
+.rettangolo-giallo {
+    position: absolute;
+    top: 350px;
+    right: 0px;
+    background-color:#FBE134;
+    border: 3px solid black;
+    padding: 20px 200px 20px 30px;
+    line-height: 1;
+    color: black;
+    display: flex; 
+    align-items: center; 
+}
+
+.rettangolo-giallo .numero {
+    flex: 0 0 auto; 
+    margin-right: 20px;
+    font-size: 64px;
+}
+
+.rettangolo-giallo .info {
+    flex: 1;
+    font-size: 16px;
+}
+
+.testo {
+    max-width: 1120px;
+    margin: auto;
+    padding: 100px 200px;
+    line-height: 1.7;
+}
+
+.testo p{
+     font-size: 15px;
+     margin-bottom: 10px;
+}
+
+.testo .paragrafo1 p{ 
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+h6{
+    max-width: 1120px;
+    margin: auto;
+    font-size: 36px;
+    background-color: #FBE134;
+    border: 3px solid black;
+    padding: 10px 20px;
+    position: absolute;
+    top: 1000px;
+    left: 200px;
+
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 900px;
+    margin: 300px auto;
+    gap: 40px; 
+}
+
+.card div{
+    width: 232px;
+    height: 329px;
+    border: 3px solid #000;
+    background-color: #FBE134;
+    box-shadow: 10px 10px 0px 0px #000;
+}
+
+.card h1{
+    margin: 0px;
+    padding: 0px 60px 40px 30px;
+    font-size: 20px;
+}
+
+.card img{
+    width: 176px;
+    height: 229px;
+    object-fit: cover;
+    padding: 30px 20px 10px 30px
+
+}
+
+footer{
+    background-color: #0B0C0C;
+    padding: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+footer nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 300px;
+    font-size: 15px;
+}
+
+footer nav ul a{
+    text-decoration: none;
+    color:#E9EAEC;
+
+}
+footer nav ul a:hover{
+    text-decoration: underline;
+    color:#E9EAEC;
+}
+
+
+header p a{
+    text-decoration: none;
+    color: #000;
+}
+header p a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+
+.header-artisti{
+    background-color:#0B0C0C;
+}
+
+.header-artisti p a{
+    text-decoration: none;
+    color:#E9EAEC;
+}
+
+.header-artisti p a:hover{
+    text-decoration: underline;
+    color:#E9EAEC;
+}
+
+.header-artisti nav ul a{
+    text-decoration: none;
+    color:#E9EAEC;
+}
+
+.header-artisti nav ul a:hover{
+    text-decoration: underline;
+    color:#E9EAEC;
+}
+
+.info-artisti{
+    max-width: 1150px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: auto;
+    color:#0B0C0C;
+    background-color:#FBE134;
+    border-bottom: 3px solid black;
+    font-size: 48px;
+    padding: 60px 220px;
+}
+
+.testo-artisti{
+    max-width: 1120px;
+    margin: auto;
+    padding: 60px 200px;
+    line-height: 2;
+}
+
+.testo-artisti p{
+    font-size: 18px;
+    padding: 10px 0px;
+}
+
+
+.card-artisti{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    max-width: 900px;
+    margin: 90px auto;
+    gap: 40px; 
+}
+
+.card-artisti div{
+    width: 232px;
+    height: 329px;
+    border: 3px solid #000;
+    background-color:#E9EAEC;
+    box-shadow: 10px 10px 0px 0px #FBE134;
+}
+
+.card-artisti h1{
+    margin: 0px;
+    padding: 0px 60px 40px 30px;
+    font-size: 20px;
+}
+
+.card-artisti img{
+    width: 176px;
+    height: 229px;
+    object-fit: cover;
+    padding: 30px 20px 10px 30px
+}
+
+.mostra-testo{
+    margin: auto;  
+    padding: 150px 0px  
+}
+
+.contenitore-inaugurazione{
+    margin: auto;
+    background-color: #FBE134;
+    border-top: 3px solid #0B0C0C;
+    border-bottom: 3px solid #0B0C0C;
+    padding: 35px 0px 35px 0px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.titolo-inaugurazione{
+    padding-left: 220px;
+}
+.titolo-inaugurazione h1{
+    font-size: 30px;
+}
+
+.testo-inaugurazione{
+    padding-right: 170px;
+}
+
+.testo-inaugurazione p{
+    line-height: 2;
+    font-size: 14px;
+    padding-bottom: 14px;
+}
+
+.contenitore-infomostra{
+    padding: 80px 0px 35px 0px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+.titolo-infomostra {
+    padding-left: 220px;
+}
+.titolo-infomostra h2{
+    font-size: 30px;
+}
+
+.testo-infomostra{
+    padding-right: 170px;
+}
+.testo-infomostra p{
+    line-height: 2;
+    font-size: 14px;
+    padding-bottom: 14px;
+}
+.testo-infomostra p b{
+    font-size: 18px;
+
+}
+
+.contenitore-mostra-artisti{
+    margin: auto;
+    background-color: #FBE134;
+    border-top: 3px solid #0B0C0C;
+    border-bottom: 3px solid #0B0C0C;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.mostra-artisti{
+    padding: 90px 0px;
+
+}
+
+.mostra-artisti1{
+    max-width: 900px;
+    gap: 100px;
+    margin: auto;
+    padding: 60px 0px;
+}
+.mostra-artisti1 p{
+    padding: 10px 0px;
+    font-size: 18px;
+}
+
+
+.mostra-artisti2{
+    max-width: 900px;
+    gap: 100px;
+    margin: auto;
+}
+.mostra-artisti2 p{
+    padding: 10px 0px;
+    font-size: 18px;
+
+
+}
+
+.mostra-artisti3 p{
+    padding: 10px 0px;
+    font-size: 18px;
+
+}
+
+.mostra-artisti3{
+    max-width: 900px;
+    gap: 100px;
+    margin: auto;
+
+}
+
+.informazioni{
+    background-color: #0B0C0C;
+    color: #E9EAEC;
+    padding: 60px 200px;
+}
+.informazioni h1{
+    font-size: 48px;
+    margin: auto;
+    padding-left: 500px;
+}
+
+.laboratorio-info{
+    max-width: 800px;
+    margin: auto;
+}
+
+.laboratorio-info h2{
+    padding: 80px 0px 20px 0px;
+    font-size: 24px;
+}
+.laboratorio-info p{
+    font-size: 14px;
+    line-height: 2;
+    padding-bottom: 70px;
+}
+
+.contenitore-inaugurazione-info{
+    border-top: 3px solid #000;
+}
+
+.inaugurazione-info{
+    max-width: 800px;
+    margin: auto;
+}
+
+.inaugurazione-info h3{
+    padding: 80px 0px 20px 0px;
+    font-size: 24px;
+}
+.inaugurazione-info p{
+    font-size: 14px;
+    line-height: 2;
+    padding-bottom: 14px;
+}
+
+.inaugurazione-info p b{
+    font-size: 18px;
+}
+
+.info-luogo{
+    max-width: 800px;
+    margin: auto;
+    line-height: 2;
+    padding: 30px 0px 120px 0px;
+}
+
+.info-luogo h4{
+    font-size: 18px;
+}
+
+.info-luogo nav ul{
+    list-style-type: none;
+}
+.info-luogo nav ul{
+    text-decoration: underline;
+    color:black;
+}
+
+
+
+
+.info-martina{
+    max-width: 1150px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: auto;
+    color:#0B0C0C;
+    background-color:#FBE134;
+    border-bottom: 3px solid black;
+    font-size: 48px;
+    padding: 60px 220px;
+}
+
+.testo-martina{
+    max-width: 1120px;
+    margin: auto;
+    padding: 60px 200px;
+    line-height: 2;
+}
+
+.testo-martina p{
+    font-size: 18px;
+    padding: 10px 0px;
+}
+
+.card-illustrazioni-martina{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 900px;
+    margin: 60px auto 200px auto;
+    gap: 40px;
+}
+
+.card-illustrazioni-martina img{
+    width: 176px;
+    height: 229px;
+    object-fit: cover;
+    border: 3px solid #0B0C0C;
+}
+
+
+.info-adrian{
+    max-width: 1150px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: auto;
+    color:#0B0C0C;
+    background-color:#FBE134;
+    border-bottom: 3px solid black;
+    font-size: 48px;
+    padding: 60px 220px;
+}
+
+.testo-adrian{
+    max-width: 1120px;
+    margin: auto;
+    padding: 60px 200px;
+    line-height: 2;
+}
+
+.testo-adrian p{
+    font-size: 18px;
+    padding: 10px 0px;
+}
+
+.card-illustrazioni-adrian{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 900px;
+    margin: 60px auto 200px auto;
+    gap: 40px;
+}
+
+.card-illustrazioni-adrian img{
+    width: 176px;
+    height: 229px;
+    object-fit: cover;
+    border: 3px solid #0B0C0C;
+}
+
+
+.info-icinori{
+    max-width: 1150px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: auto;
+    color:#0B0C0C;
+    background-color:#FBE134;
+    border-bottom: 3px solid black;
+    font-size: 48px;
+    padding: 60px 220px;
+}
+
+.testo-icinori{
+    max-width: 1120px;
+    margin: auto;
+    padding: 60px 200px;
+    line-height: 2;
+}
+
+.testo-icinori p{
+    font-size: 18px;
+    padding: 10px 0px;
+}
+
+.card-illustrazioni-icinori{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    max-width: 900px;
+    margin: 60px auto 200px auto;
+    gap: 40px;
+}
+
+.card-illustrazioni-icinori img{
+    width: 176px;
+    height: 229px;
+    object-fit: cover;
+    border: 3px solid #0B0C0C;
+}
+
+.mostra-artisti p a  {
+    text-decoration: none;
+    color: #000;
+}
+.card h1 a{
+    text-decoration: none;
+    color: #000;
+}
+.card-artisti h1 a{
+    text-decoration: none;
+    color: #000;
+}
+
+.mostra-artisti p a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+
+.card h1 a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+
+.card-artisti h1 a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+
+
